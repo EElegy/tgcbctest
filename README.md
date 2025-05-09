@@ -43,9 +43,10 @@
    ```
    -Dorg.bouncycastle.jce.provider.BouncyCastleProvider.PKCS12.legacy=true
    ```
-4. 更新到容器后可能会发生如下情况，请参数知识库处理：修改容器的jdk环境
+4. 更新到容器后可能会发生如下安全验证问题，请联系基础支撑将容器jdk环境升级为openjdk
+![容器报错](src/main/error.jpg)
 
-## 依赖说明
+## 依赖示例说明
 
 - bcprov-jdk15on: 1.70 - BouncyCastle加密库
 - hutool-all: 5.8.16 - 工具类库
