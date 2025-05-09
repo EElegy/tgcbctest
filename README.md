@@ -39,10 +39,7 @@
 
 1. 使用重命名后的BC包时，需要将代码中的`org.bouncycastle`包引用改为`testznsb.org.bouncycastle`，也支持将.class文件放入工程中，在install时会自动修改依赖路径
 2. 确保项目中其他依赖不会与重命名后的包发生冲突
-3. 建议在项目启动时添加以下JVM参数来禁用BC的安全检查：
-   ```
-   -Dorg.bouncycastle.jce.provider.BouncyCastleProvider.PKCS12.legacy=true
-   ```
+
 4. 更新到容器后可能会发生如下安全验证问题，请联系基础支撑将容器jdk环境升级为openjdk
 ![容器报错](src/main/error.jpg)
 ![知识库](src/main/zsk.png)
