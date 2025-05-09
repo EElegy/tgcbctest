@@ -45,6 +45,7 @@
    ```
 4. 更新到容器后可能会发生如下安全验证问题，请联系基础支撑将容器jdk环境升级为openjdk
 ![容器报错](src/main/error.jpg)
+![知识库](src/main/zsk.png)
 
 ## 依赖示例说明
 
