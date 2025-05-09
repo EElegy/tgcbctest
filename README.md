@@ -50,6 +50,5 @@
 - bcprov-jdk15on: 1.70 - BouncyCastle加密库
 - hutool-all: 5.8.16 - 工具类库
 
-## 许可证
-
-请根据实际情况添加许可证信息 
+## 打包完成的示例图片
+![打包完成](src/main/success.jpg)
